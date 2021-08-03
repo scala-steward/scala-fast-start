@@ -18,7 +18,6 @@ lazy val root = (project in file("."))
         val scalaLogging    = "3.9.4"
         val logback         = "1.2.5"
         val akkaHttp        = "10.2.5"
-        val akkaHttp        = "10.2.4"
         val akka            = "2.6.15"
         val akkaHttpCORS    = "1.1.2"
         val swaggerAkkaHttp = "2.4.2"
