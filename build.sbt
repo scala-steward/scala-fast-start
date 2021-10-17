@@ -11,22 +11,22 @@ lazy val root = (project in file("."))
     mainClass in Compile := Some("vbakaev.app.Main"),
     libraryDependencies ++= {
       object Version {
-        val scalaTest       = "3.2.9"
-        val mockitoScala    = "1.16.46"
+        val scalaTest       = "3.2.10"
+        val mockitoScala    = "1.16.37"
         val cats            = "2.6.1"
-        val pureConfig      = "0.16.0"
+        val pureConfig      = "0.17.0"
         val scalaLogging    = "3.9.4"
-        val logback         = "1.2.5"
+        val logback         = "1.2.6"
         val akkaHttp        = "10.2.5"
-        val akka            = "2.6.15"
+        val akka            = "2.6.17"
         val akkaHttpCORS    = "1.1.2"
-        val swaggerAkkaHttp = "2.4.2"
+        val swaggerAkkaHttp = "2.6.0"
         val swaggerScala    = "2.3.1"
         val circe           = "0.14.1"
-        val akkaHttpCirce   = "1.37.0"
+        val akkaHttpCirce   = "1.38.2"
         val javaxWsRs       = "2.1.1"
         val webJars         = "0.41"
-        val swaggerUI       = "3.51.2"
+        val swaggerUI       = "3.52.5"
       }
 
       Seq(
