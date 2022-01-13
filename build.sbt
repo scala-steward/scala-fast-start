@@ -5,7 +5,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-fast-start",
     version := "0.1.0",
-    scalaVersion := "2.13.6",
+    scalaVersion := "2.13.8",
     scalafmtOnCompile := true,
     parallelExecution in(Test, test) := true,
     mainClass in Compile := Some("vbakaev.app.Main"),
