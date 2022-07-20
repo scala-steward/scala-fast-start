@@ -13,7 +13,7 @@ lazy val root = (project in file("."))
       object Version {
         val scalaTest       = "3.2.12"
         val mockitoScala    = "1.17.5"
-        val cats            = "2.6.1"
+        val cats            = "2.8.0"
         val pureConfig      = "0.17.0"
         val scalaLogging    = "3.9.5"
         val logback         = "1.2.10"
