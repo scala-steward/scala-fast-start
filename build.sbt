@@ -12,7 +12,7 @@ lazy val root = (project in file("."))
     libraryDependencies ++= {
       object Version {
         val scalaTest       = "3.2.12"
-        val mockitoScala    = "1.17.5"
+        val mockitoScala    = "1.17.12"
         val cats            = "2.8.0"
         val pureConfig      = "0.17.0"
         val scalaLogging    = "3.9.5"
@@ -21,12 +21,12 @@ lazy val root = (project in file("."))
         val akka            = "2.6.19"
         val akkaHttpCORS    = "1.1.3"
         val swaggerAkkaHttp = "2.8.0"
-        val swaggerScala    = "2.6.0"
+        val swaggerScala    = "2.7.3"
         val circe           = "0.14.2"
         val akkaHttpCirce   = "1.39.2"
         val javaxWsRs       = "2.1.1"
         val webJars         = "0.45"
-        val swaggerUI       = "4.11.1"
+        val swaggerUI       = "4.13.2"
       }
 
       Seq(
