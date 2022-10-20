@@ -26,7 +26,7 @@ lazy val root = (project in file("."))
         val akkaHttpCirce   = "1.39.2"
         val javaxWsRs       = "2.1.1"
         val webJars         = "0.45"
-        val swaggerUI       = "4.14.0"
+        val swaggerUI       = "4.14.3"
       }
 
       Seq(
